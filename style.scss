@@ -2,7 +2,7 @@ $body-background: white;
 $body-background404: #15210a;
 $h3-404: white;
 $p-404: white;
-$header-background: #009BED;
+$header-background: white;
 $footer-background: #003E73;
 $footer-color: white;
 $card-background: transparent;
@@ -18,10 +18,10 @@ $btn-bordercolor: #2691FB;
 $card2-background: #F7F7F7;
 $card2-background2: #009BED;
 $card2-textcolor: #003E73;
-$card2-titulocolor: #003E73;
+$card2-titulocolor: #009BED;
 $btn2-textcolor: white;
 $btn2-bordercolor: #2691FB;
-$header-textcolor: white;
+$header-textcolor: #003E73;
 
 $toplogopadding-left: 20px;
 $toplogopadding-top: 20px;
@@ -99,14 +99,17 @@ div#example-menu {
 }
 #article1{
   max-width: 100%;
-  background: $card2-background;
+  background: rgb(91,207,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(91,207,255,1) 0%, rgba(228,247,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(91,207,255,1) 0%,rgba(228,247,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(91,207,255,1) 0%,rgba(228,247,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5bcfff', endColorstr='#e4f7ff',GradientType=0 ); /* IE6-9 */
 }
 
 #article2{
   max-width: 100%;
   background: $card2-background2;
 }
-
 
 div#example-menu {
     height: 120px;
@@ -226,7 +229,7 @@ button.hollow.button {
   color: $card2-textcolor;
 }
  .card2-section h3 {
-  color: $card-titulocolor;
+  color: $card2-textcolor;
   font-weight: bolder;  
 }
 
@@ -286,6 +289,18 @@ ul.menu.headermenu {
   background: $body-background404;
 }
 
+#texto1:after , #texto2:after {
+  color: $card2-titulocolor;
+  content: "Multi";
+}
+#texto1:after   {
+  color: $card2-textcolor;
+  content: "mujer";
+}
+#texto2:after   {
+  color: $card2-textcolor;
+  content: "flora";
+}
 
 
 //Medias Queris
