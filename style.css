@@ -1,5 +1,6 @@
 body {
-  background: white; }
+  background: white;
+  font-family: 'Open Sans', sans-serif; }
 
 header {
   background: white;
@@ -54,14 +55,16 @@ div#example-menu {
 
 #article1 {
   max-width: 100%;
-  background: #5bcfff;
+  background: #5aceff;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #5bcfff 0%, #e4f7ff 100%);
+  background: -moz-linear-gradient(top, #5aceff 0%, #e4f7ff 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #5bcfff 0%, #e4f7ff 100%);
+  background: -webkit-linear-gradient(top, #5aceff 0%, #e4f7ff 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #5bcfff 0%, #e4f7ff 100%);
+  background: linear-gradient(to bottom, #5aceff 0%, #e4f7ff 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5aceff', endColorstr='#e4f7ff',GradientType=0 );
+  /* IE6-9 */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5bcfff', endColorstr='#e4f7ff',GradientType=0 );
   /* IE6-9 */ }
 
@@ -129,12 +132,16 @@ a::after {
   padding: 10px 20px 10px 20px; }
 
 .card-section p {
-  color: #767E8B; }
+  color: #767E8B;
+  font-family: OpenSans;
+  font-weight: 400;
+  font-size: 16px; }
 
 .card-section h5 {
-  color: #0076E8;
-  text-transform: uppercase;
-  font-weight: bolder; }
+  color: #009BED;
+  font-family: OpenSans;
+  font-weight: 300;
+  font-size: 24px; }
 
 #imageCard1 {
   padding-left: 20px; }
@@ -165,7 +172,10 @@ button.hollow.button {
   background: white; }
 
 .card2-section p {
-  color: #003E73; }
+  color: #003E73;
+  font-family: OpenSans;
+  font-weight: 400;
+  font-size: 21px; }
 
 .card2-section h3 {
   color: #003E73;
@@ -174,12 +184,15 @@ button.hollow.button {
 .card2-section h5 {
   color: #009BED;
   text-transform: uppercase;
-  font-weight: bolder; }
+  font-family: OpenSans;
+  font-weight: 800;
+  font-size: 32px; }
 
 .textSpecial {
   color: #009BED;
-  text-transform: uppercase;
-  font-weight: bolder;
+  font-family: OpenSans;
+  font-weight: 300;
+  font-size: 32px;
   padding-bottom: 20px; }
 
 #imagesBrand {
@@ -191,7 +204,9 @@ button.hollow.button.button2 {
 
 #menuListHeader {
   text-align: right;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold; }
 
 ul.menu.headermenu {
   margin-top: 15px; }
@@ -216,17 +231,19 @@ ul.menu.headermenu {
 #body404 {
   background: #15210a; }
 
-#texto1:after, #texto2:after {
-  color: #009BED;
-  content: "Multi"; }
-
-#texto1:after {
+#texto1, #texto2 {
   color: #003E73;
-  content: "mujer"; }
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: OpenSans;
+  font-weight: 400; }
 
-#texto2:after {
-  color: #003E73;
-  content: "flora"; }
+#texto1 span, #texto2 span {
+  font-weight: 800;
+  color: #009BED; }
+
+.niko {
+  padding-top: 80px; }
 
 /* Small only */
 @media screen and (max-width: 350px) {
@@ -253,7 +270,10 @@ ul.menu.headermenu {
 
   #videoFrame {
     width: 320px;
-    height: 180px; } }
+    height: 180px; }
+
+  .niko {
+    padding-top: 10px; } }
 /* Medium and up */
 @media screen and (min-width: 40em) {
   #imgHeader img {

@@ -35,6 +35,7 @@ $orbit-bulletcoloractive: #3893FF;
 
 body {
   background: $body-background;
+  font-family: 'Open Sans', sans-serif;
 }
 header{
   background: $header-background;
@@ -99,11 +100,11 @@ div#example-menu {
 }
 #article1{
   max-width: 100%;
-  background: rgb(91,207,255); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(91,207,255,1) 0%, rgba(228,247,255,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(91,207,255,1) 0%,rgba(228,247,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(91,207,255,1) 0%,rgba(228,247,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5bcfff', endColorstr='#e4f7ff',GradientType=0 ); /* IE6-9 */
+background: rgb(90,206,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(90,206,255,1) 0%, rgba(228,247,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(90,206,255,1) 0%,rgba(228,247,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(90,206,255,1) 0%,rgba(228,247,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5aceff', endColorstr='#e4f7ff',GradientType=0 ); /* IE6-9 */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5bcfff', endColorstr='#e4f7ff',GradientType=0 ); /* IE6-9 */
 }
 
 #article2{
@@ -186,12 +187,16 @@ a::after {
 
 .card-section p {
   color: $card-textcolor;
+  font-family:  Open+Sans;
+  font-weight: 400; 
+  font-size: 16px  ;
 }
 
 .card-section h5{
-  color: $card-titulocolor;
-  text-transform: uppercase;
-  font-weight: bolder;  
+  color: #009BED;
+  font-family:  Open+Sans;
+  font-weight: 300; 
+  font-size: 24px  ;
 }
 #imageCard1 {
   padding-left: 20px;
@@ -227,6 +232,9 @@ button.hollow.button {
 }
 .card2-section p {
   color: $card2-textcolor;
+  font-family:  Open+Sans;
+  font-weight: 400; 
+  font-size: 21px  ;
 }
  .card2-section h3 {
   color: $card2-textcolor;
@@ -236,13 +244,17 @@ button.hollow.button {
 .card2-section h5 {
   color: $card2-titulocolor;
   text-transform: uppercase;
-  font-weight: bolder;  
+  font-family:  Open+Sans;
+  font-weight: 800; 
+  font-size: 32px  ;
 }
 
 .textSpecial {
-  color: $card2-titulocolor;
-  text-transform: uppercase;
-  font-weight: bolder;  
+  color: #009BED;
+
+  font-family:  Open+Sans;
+  font-weight: 300; 
+  font-size: 32px  ; 
   padding-bottom: 20px;
 }
 
@@ -255,11 +267,12 @@ button.hollow.button.button2 {
   border-color: $btn2-bordercolor; 
 }
 
- #menuListHeader  {
+#menuListHeader  {
   text-align: right;
-   margin-top: 20px;
-  }
-
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
 ul.menu.headermenu {
     margin-top: 15px;
 }
@@ -289,19 +302,24 @@ ul.menu.headermenu {
   background: $body-background404;
 }
 
-#texto1:after , #texto2:after {
-  color: $card2-titulocolor;
-  content: "Multi";
-}
-#texto1:after   {
+
+
+#texto1, #texto2 {
   color: $card2-textcolor;
-  content: "mujer";
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: OpenSans;
+  font-weight: 400; 
 }
-#texto2:after   {
-  color: $card2-textcolor;
-  content: "flora";
+#texto1 span, #texto2 span{
+  font-weight: 800; 
+  color: #009BED;
 }
 
+
+.niko{
+  padding-top: 80px;
+}
 
 //Medias Queris
 
@@ -338,6 +356,9 @@ ul.menu.headermenu {
   #videoFrame {
     width: 320px;
     height: 180px;
+  }
+  .niko{
+    padding-top: 10px;
   }
 }
 
