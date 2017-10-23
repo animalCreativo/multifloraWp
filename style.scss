@@ -51,7 +51,11 @@ header{
     border-color: $header-textcolor;
     border-width: 0px 0px 1px 0px;
 }
-
+.top-bar.headermenu.sticky {
+    border-style: solid;
+    border-color: $header-textcolor;
+    border-width: 0px 0px 1px 0px;
+}
 li#rata {
     text-align: center;
 }
