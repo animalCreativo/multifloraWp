@@ -340,6 +340,12 @@ ul.menu.headermenu {
   .title-bar {
     width: 100%; } }
 /* Large and up */
+@media screen and (min-width: 64em) {
+  #menuLeftPadding {
+    padding-left: 200px; }
+
+  #imgLogoLarge {
+    padding-top: 30px; } }
 /* Large only */
 
 /*# sourceMappingURL=style.css.map */

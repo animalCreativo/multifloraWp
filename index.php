@@ -77,10 +77,10 @@
         <div class="row">
           <div class="columns small-5  large-3 show-for-medium" style="width: 250px;">
             <ul class="menu">
-               <img src="<?php bloginfo('stylesheet_directory')?>/assets/multiLogo.svg" style="max-width: 200px">
+               <img id="imgLogoLarge" src="<?php bloginfo('stylesheet_directory')?>/assets/multiLogo.svg" style="max-width: 200px">
             </ul>
           </div>
-          <div class="columns small-12 medium-9 show-for-medium" >
+          <div id="menuLeftPadding"  class="columns small-12 medium-9 show-for-medium" >
             <ul class="menu" data-magellan id="menuListHeader">
                 <li><a href="#first" >¿Qué es Multiflora?</a></li>
                 <li><a href="#second">Beneficios</a></li>
