@@ -32,7 +32,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiflora</title>
+    <meta name="description" content="Probiótico y suplemento alimenticio que ayuda al equilibrio e inmunidad de la flora intestinal.">
+    <meta name="keywords" content="Probióticos, flora intestinal, dolor de estómago, suplemento alimenticio, bacterias gastrintestinales, sistema inmune">
+    <title>Multiflora, Probiótico y suplemento alimenticio para la flora intestinal</title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/css/foundation-flex.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/style.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/icons/foundation-icons.css">
@@ -65,7 +67,7 @@
                   <li><a class= "clickMenu" href="#third" >Puntos de Venta</a></li>
               </ul>
               <ul class=" dropdown menu" data-magellan data-dropdown-menu id="menuListHeader">
-                 <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                 <li><a href="mailto:sbriones@pharmainvesti.cl">Contacto</a></li>
               </ul>              
             </div>
           </div>
@@ -85,7 +87,7 @@
                 <li><a href="#first" >¿Qué es Multiflora?</a></li>
                 <li><a href="#second">Beneficios</a></li>
                 <li><a href="#third" >Puntos de Venta</a></li>
-                <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                <li><a href="mailto:sbriones@pharmainvesti.cl">Contacto</a></li>
             </ul>
           </div>
         </div>
@@ -216,7 +218,7 @@
                                 <a href="#third">Puntos de Venta</a>
                             </li>
                             <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                            <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
+                            <a href="mailto:sbriones@pharmainvesti.cl">Contacto</a>
                             </li>
                         </ul>
                     </nav>
@@ -257,7 +259,7 @@
                           <a href="#third">Puntos de Venta</a>
                       </li>
                       <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                          <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
+                          <a href="mailto:sbriones@pharmainvesti.cl">Contacto</a>
                       </li>
                 </ul> 
             </div>
